@@ -13,18 +13,26 @@ h1 {
   font-size: 3rem;
 }
 h2 {
+  font-size: 2.2rem;
+  color: #121212;
 }
 h3 {
+  font-size: 2rem;
+  color: #707070;
 }
 h4 {
 }
 p {
+  color: #707070;
 }
 img {
   width: 100%;
 }
 a {
   text-decoration: none;
+}
+.container {
+  padding: 0 5rem;
 }
 .btn {
   padding: 0.7rem 2rem;
@@ -37,6 +45,12 @@ a {
 .btn:hover {
   background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
   color: #ff5959;
+}
+.mt {
+  margin-top: 5rem;
+}
+.mb {
+  margin-bottom: 5rem;
 }
 /* ------------------------------------
     ! default style end
@@ -73,7 +87,62 @@ a {
 .header-text p {
   margin-top: 1rem;
   margin-bottom: 2rem;
+  color: white;
 }
 /* ------------------------------------
     ! header-section style end
+--------------------------------------*/
+
+/* ------------------------------------
+    ! donate-section style end
+--------------------------------------*/
+.content-header {
+  text-align: center;
+}
+.content-header p {
+  width: 50%;
+  margin: 1rem auto;
+}
+.donate-boxs {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+.donate-box {
+  width: 135px;
+  height: 123px;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+#box-2 {
+  background-color: #ffeeee;
+}
+#box-2 h3 {
+  color: #ff5959;
+}
+.donate-field {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.donate-field div {
+  text-align: center;
+}
+.donate-input {
+  width: 800px;
+  display: block;
+  border: none;
+  padding: 1rem;
+  border-bottom: 3px solid #dadada;
+  margin-bottom: 2rem;
+  text-align: center;
+  outline: none;
+}
+/* ------------------------------------
+    ! donate-section style end
 --------------------------------------*/
