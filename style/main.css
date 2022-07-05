@@ -21,6 +21,7 @@ h3 {
   color: #707070;
 }
 h4 {
+  font-size: 1.4rem;
 }
 p {
   color: #707070;
@@ -145,4 +146,48 @@ a {
 }
 /* ------------------------------------
     ! donate-section style end
+--------------------------------------*/
+
+/* ------------------------------------
+    ! our-plan-section style end
+--------------------------------------*/
+.our-plans {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-top: 3rem;
+}
+.our-plan img {
+  width: 15%;
+  margin-bottom: 1rem;
+}
+.our-plan {
+  width: 360px;
+  height: 352px;
+  padding: 0 2rem;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(0);
+  transition: all 0.5s;
+}
+.our-plan:hover {
+  transition: all 0.5s;
+  transform: translateY(-15px);
+}
+.plan-details p {
+  margin-top: 1rem;
+}
+#plan-1 {
+  background: rgba(79, 157, 166, 0.1);
+}
+#plan-2 {
+  background: rgba(255, 89, 89, 0.1);
+}
+#plan-3 {
+  background: #fff4d6;
+}
+/* ------------------------------------
+    ! our-plan-section style end
 --------------------------------------*/
