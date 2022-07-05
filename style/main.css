@@ -10,6 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 h1 {
+  font-size: 3rem;
 }
 h2 {
 }
@@ -20,7 +21,59 @@ h4 {
 p {
 }
 img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  padding: 0.7rem 2rem;
+  background-color: #ff5959;
+  color: white;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+}
+.btn:hover {
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  color: #ff5959;
 }
 /* ------------------------------------
     ! default style end
+--------------------------------------*/
+
+/* ------------------------------------
+    ! header-section style start
+--------------------------------------*/
+#header-section {
+  height: 100vh;
+  background-image: url("../images/donation5.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header-section::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  color: white;
+}
+.header-text {
+  width: 50%;
+  text-align: center;
+  z-index: 1000;
+}
+.header-text p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+/* ------------------------------------
+    ! header-section style end
 --------------------------------------*/
