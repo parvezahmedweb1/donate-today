@@ -270,3 +270,45 @@ textarea {
 /* ------------------------------------
     ! footer-section style end
 --------------------------------------*/
+
+/* ------------------------------------
+    ! events-section style end
+--------------------------------------*/
+.events {
+  display: flex;
+  column-gap: 2rem;
+  margin-top: 3rem;
+}
+.event {
+  width: 50%;
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  transition: all 0.5s;
+}
+.event img {
+  width: 40%;
+  border-radius: 1rem 0 0 1rem;
+  position: relative;
+}
+.event-content {
+  padding: 1rem 1.5rem;
+}
+.date-info {
+  color: #ff5959;
+  margin-bottom: 0.5rem;
+}
+.fa-calendar-days {
+  margin-right: 0.5rem;
+}
+.event-content h4,
+.event-content p {
+  margin-bottom: 0.5rem;
+}
+.event-content a {
+  color: #ff5959;
+  font-weight: 700;
+}
+/* ------------------------------------
+    ! events-section style end
+--------------------------------------*/
