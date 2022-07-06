@@ -47,7 +47,7 @@ li {
   transition: all 0.5s;
 }
 .btn:hover {
-  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  background: #121212;
   color: #ff5959;
 }
 .mt {
@@ -195,6 +195,32 @@ li {
     ! our-plan-section style end
 --------------------------------------*/
 
+/* ------------------------------------
+    ! donation-section style end
+--------------------------------------*/
+/* ------------------------------------
+    ! donation-section style end
+--------------------------------------*/
+.donation {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  column-gap: 2rem;
+}
+.left-donation,
+.right-donation {
+  width: 50%;
+}
+.left-donation h2 {
+  margin-bottom: 1rem;
+}
+.sub-text {
+  margin-bottom: 2rem;
+}
+.right-donation img {
+  border-radius: 0.2rem;
+  box-shadow: -20px -20px #ff5959;
+}
 /* ------------------------------------
     ! update-section style end
 --------------------------------------*/
