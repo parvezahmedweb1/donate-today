@@ -196,10 +196,7 @@ li {
 --------------------------------------*/
 
 /* ------------------------------------
-    ! donation-section style end
---------------------------------------*/
-/* ------------------------------------
-    ! donation-section style end
+    ! donation-section style start
 --------------------------------------*/
 .donation {
   display: flex;
@@ -222,79 +219,7 @@ li {
   box-shadow: -20px -20px #ff5959;
 }
 /* ------------------------------------
-    ! update-section style end
---------------------------------------*/
-.update-content {
-  margin-top: 4rem;
-  display: flex;
-  justify-content: center;
-}
-.update {
-  width: 60%;
-  background-color: #fff4d6;
-  padding: 6rem 0;
-  display: flex;
-  justify-content: center;
-  border-radius: 0.5rem;
-}
-.update-input {
-  width: 50%;
-  padding: 0 1rem;
-  border-radius: 0.5rem 0 0 0.5rem;
-  border: none;
-  outline: none;
-}
-.update-input,
-textarea {
-  background: #d9d9d9;
-}
-.update-btn {
-  border-radius: 0 0.5rem 0.5rem 0;
-}
-/* ------------------------------------
-    ! update-section style end
---------------------------------------*/
-
-/* ------------------------------------
-    ! footer-section style end
---------------------------------------*/
-#footer-section {
-  background-color: #0b0d17;
-  color: white;
-  padding: 2rem 0;
-}
-.footer-content {
-  text-align: center;
-}
-.footer-content h3 {
-  font-family: "Lobster", cursive;
-  letter-spacing: 0.2rem;
-  color: #ff5959;
-}
-.media-link-list {
-  display: flex;
-  justify-content: center;
-  column-gap: 2rem;
-  margin: 1rem 0;
-}
-.media-link-list li {
-  width: 45px;
-  height: 45px;
-  background-color: #ff5959;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.media-link-list li a {
-  color: white;
-  font-size: 1.5rem;
-}
-.footer-content small {
-  color: #707070;
-}
-/* ------------------------------------
-    ! footer-section style end
+    ! donation-section style end
 --------------------------------------*/
 
 /* ------------------------------------
@@ -337,4 +262,80 @@ textarea {
 }
 /* ------------------------------------
     ! events-section style end
+--------------------------------------*/
+
+/* ------------------------------------
+    ! update-section style start
+--------------------------------------*/
+.update-content {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.update {
+  width: 60%;
+  background-color: #fff4d6;
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+.update-input {
+  width: 50%;
+  padding: 0 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  border: none;
+  outline: none;
+}
+.update-input,
+textarea {
+  background: #d9d9d9;
+}
+.update-btn {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+/* ------------------------------------
+    ! update-section style end
+--------------------------------------*/
+
+/* ------------------------------------
+    ! footer-section style start
+--------------------------------------*/
+#footer-section {
+  background-color: #0b0d17;
+  color: white;
+  padding: 2rem 0;
+}
+.footer-content {
+  text-align: center;
+}
+.footer-content h3 {
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.2rem;
+  color: #ff5959;
+}
+.media-link-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  margin: 1rem 0;
+}
+.media-link-list li {
+  width: 45px;
+  height: 45px;
+  background-color: #ff5959;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.media-link-list li a {
+  color: white;
+  font-size: 1.5rem;
+}
+.footer-content small {
+  color: #707070;
+}
+/* ------------------------------------
+    ! footer-section style end
 --------------------------------------*/
