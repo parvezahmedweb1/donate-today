@@ -191,3 +191,37 @@ a {
 /* ------------------------------------
     ! our-plan-section style end
 --------------------------------------*/
+
+/* ------------------------------------
+    ! update-section style end
+--------------------------------------*/
+.update-content {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.update {
+  width: 60%;
+  background-color: #fff4d6;
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+.update-input {
+  width: 50%;
+  padding: 0 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  border: none;
+  outline: none;
+}
+.update-input,
+textarea {
+  background: #d9d9d9;
+}
+.update-btn {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+/* ------------------------------------
+    ! update-section style end
+--------------------------------------*/
